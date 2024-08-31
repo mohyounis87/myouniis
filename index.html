@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لعبة للأطفال</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1 class="animated-name">جوري اليونس</h1>
+    </div>
+    <div class="game-area">
+        <button id="startButton">ابدأ اللعبة</button>
+        <div id="gameContent" class="hidden">
+            <div id="questionContainer">
+                <p id="question"></p>
+                <div id="answerButtons">
+                    <button class="answerButton" data-answer="1"></button>
+                    <button class="answerButton" data-answer="2"></button>
+                    <button class="answerButton" data-answer="3"></button>
+                </div>
+            </div>
+            <p id="score">النقاط: 0</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
